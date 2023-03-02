@@ -16,3 +16,5 @@ with requests.get(url) as response:
     html = response.text
 #    print("Web Server: " + response.headers.get("Server"))
     print(response.headers)
+
+
